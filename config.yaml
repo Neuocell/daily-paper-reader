@@ -25,3 +25,48 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
+  intent_profiles:
+    - tag: 数据筛选
+      description: 视觉语言模型指令微调数据筛选方法相关论文
+      enabled: true
+      keywords:
+        - keyword: Data Selection
+          keyword_cn: 数据筛选
+          query: Data selection strategies for model fine-tuning and instruction following
+        - keyword: Instruction Tuning
+          keyword_cn: 指令微调
+          query: Instruction tuning methods for large language models and vision-language models
+        - keyword: Data Filtering
+          keyword_cn: 数据过滤
+          query: Automated data filtering techniques for large-scale instruction datasets
+        - keyword: Data Pruning
+          keyword_cn: 数据剪枝
+          query: Dataset pruning and core-set selection for efficient model training
+        - keyword: Quality Assessment
+          keyword_cn: 质量评估
+          query: Evaluating the quality and diversity of instruction tuning data
+        - keyword: Sample Selection
+          keyword_cn: 样本选择
+          query: Heuristic and model-based sample selection for large language models
+      intent_queries:
+        - query: Instruction tuning data selection methods for vision language models
+          query_cn: 视觉语言模型指令微调数据筛选方法
+          enabled: true
+          source: manual
+          note: ''
+        - query: Filtering high quality multimodal instruction data for model fine tuning
+          query_cn: 用于模型微调的高质量多模态指令数据过滤
+          enabled: true
+          source: manual
+          note: ''
+        - query: Data pruning and core set selection techniques for large models
+          query_cn: 大模型的数据剪枝与核心集选择技术
+          enabled: true
+          source: manual
+          note: ''
+        - query: Survey of instruction data curation strategies for multimodal models
+          query_cn: 多模态模型指令数据构建策略综述
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-18T13:11:50.700Z'
